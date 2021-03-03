@@ -1,0 +1,16 @@
+/* GENERAL */
+
+/* BOX SIMULATION */
+
+.box {
+    padding: 10px;
+    background: white;
+    text-align: center;
+    border: 1px solid lime;
+}
+
+/* HEADER TOP */
+
+.top-header {
+    background-color: darkslategray;
+}
