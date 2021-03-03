@@ -17,4 +17,12 @@
 
 .start-bootstrap {
     background-color: aquamarine;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* UTILITIES */
+
+.pic {
+    text-align: center;
 }
