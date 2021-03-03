@@ -32,6 +32,14 @@
     margin-top: 50px;
 }
 
+.last-section {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: darkslategrey;
+}
+
 /* UTILITIES */
 
 .pic {
