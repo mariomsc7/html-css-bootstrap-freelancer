@@ -3,13 +3,15 @@
 /* BOX SIMULATION */
 
 .box {
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     background: white;
     text-align: center;
     border: 1px solid lime;
 }
 
-/* SECTIONS BG */
+/* SECTIONS BG and PADDINGS */
 
 .top-header {
     background-color: darkslategray;
@@ -21,8 +23,24 @@
     padding-bottom: 30px;
 }
 
+.portfolio {
+    padding-top: 30px;
+}
+
+.about {
+    background-color: aquamarine;
+    margin-top: 50px;
+}
+
 /* UTILITIES */
 
 .pic {
     text-align: center;
+}
+
+.pics {
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
 }
