@@ -9,8 +9,12 @@
     border: 1px solid lime;
 }
 
-/* HEADER TOP */
+/* SECTIONS BG */
 
 .top-header {
     background-color: darkslategray;
+}
+
+.start-bootstrap {
+    background-color: aquamarine;
 }
