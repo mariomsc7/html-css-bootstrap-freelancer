@@ -9,99 +9,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- STYLE -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 
 <body>
     
-    <nav class="navbar navbar-default navbar-custom">
-        <div class="container navbar-padding">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header hover-none">
-              <!-- HAMBURGER -->
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <p class="navbar-brand text-white text-size-left">START BOOTSTRAP</p>
-          </div>
-      
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right text-white text-size-right">
-              <li><a href="#">PORTFOLIO</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">CONTACT</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div>
-      </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- RESPONSIVE HEADER -->
-    <header class="top-header">
-        <!-- HEADER GRID -->
-        <div class="container">
-            <!-- COLUMNS -->
-            <div class="row">
-                <div class="col-md-5 col-sm-5 col-xs-5"><div class="box">1</div></div>
-                <div class="col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-5"><div class="box">1</div></div>
-                <div class="col-md-1 col-sm-1 hidden-xs"><div class="box">1</div></div>
-                <div class="col-md-1 col-sm-1 hidden-xs"><div class="box">1</div></div>
+    <header>
+        <nav class="navbar navbar-default navbar-custom navbar-margin">
+            <div class="container navbar-padding">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header hover-none">
+                <!-- HAMBURGER -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <p class="navbar-brand text-white text-size-left">START BOOTSTRAP</p>
             </div>
-        </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right text-white text-size-right">
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
     </header>
 
     <main>
@@ -112,95 +50,78 @@
                 <!-- COLUMNS -->
                 <div class="row">
                     <!-- COL 1 -->
+                    
                     <div class="pic">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Face-smile.png" alt="smile">
+                        <img src="./img/avatar.svg" alt="">
                     </div>
-                    <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-                        <div class="box">START BOOTSTRAP</div>
-                    </div>
-                    <!-- COL 2 -->
-                    <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
-                        <div class="box">---*---</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- COL 3 (1,2,3) -->
-                    <div class="col-md-4 col-sm-4 col-xs-4">
-                        <div class="box">GRAPHIC ARTIST</div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-4">
-                        <div class="box">WEB DESIGNER</div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-4">
-                        <div class="box">ILLUSTRATOR</div>
+                    <div>
+                        <h1>START BOOTSTRAP</h1>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="art">
+                            <span>GRAPHIC ARTIST -</span>
+                            <span>WEB DESIGNER -</span>
+                            <span>ILLUSTRATOR</span>
+                        </div>
+
                     </div>
                 </div>
         </section>
 
         <!-- SECTION PORTFOLIO -->
-        <section class="portfolio">
-            <!-- SECTION GRID -->
+        <section class="portfolio-section">
+            <!-- TITLE -->
             <div class="container">
-
-                <!-- COLUMNS TEXT (1,2) -->
-                <div class="row">
-                    <!-- COL 1 -->
-                    <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-                        <div class="box">START BOOTSTRAP</div>
-                    </div>
-                    <!-- COL 2 -->
-                    <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
-                        <div class="box">---*---</div>
+                <div class="portfolio">
+                    <h2>PORTFOLIO</h2>
+                    <div class="star-2">
+                        <i class="fas fa-star"></i>
                     </div>
                 </div>
 
                 <!-- IMAGES COLUMNS-->
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <img class="pics" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Face-smile.png" alt="smile">
+                        <img class="pics" src="./img/cabin.png" alt="House">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <img  class="pics" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Face-smile.png" alt="smile">
+                        <img  class="pics" src="./img/cake.png" alt="Cake">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <img class="pics" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Face-smile.png" alt="smile">
+                        <img class="pics" src="./img/circus.png" alt="Circus">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <img class="pics" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Face-smile.png" alt="smile">
+                        <img class="pics" src="./img/game.png" alt="Game">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <img class="pics" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Face-smile.png" alt="smile">
+                        <img class="pics" src="./img/safe.png" alt="Safe">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <img class="pics" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Face-smile.png" alt="smile">
+                        <img class="pics" src="./img/submarine.png" alt="Submarine">
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- SECTION ABOUT -->
-        <section class="about">
+        <section class="about-section">
             <!-- SECTION GRID -->
             <div class="container">
 
-                <!-- COLUMNS -->
-                <div class="row">
-                    <!-- COL 1 -->
-                    <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-                        <div class="box">ABOUT</div>
+                <div class="about">
+                    <h2>ABOUT</h2>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
                     </div>
-                    <!-- COL 2 -->
-                    <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
-                        <div class="box">---*---</div>
-                    </div> 
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius molestias at quaerat cum omnis sequi voluptates deserunt. Atque aut quasi, nam numquam, facilis placeat dolore ea recusandae corporis soluta obcaecati.</p>
+                <div class="row about-text">
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-white">
+                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customisation</p>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius molestias at quaerat cum omnis sequi voluptates deserunt. Atque aut quasi, nam numquam, facilis placeat dolore ea recusandae corporis soluta obcaecati.</p>
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-white">
+                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                     </div>
                     <div class="col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-5">
                         <div class="box">Download</div>

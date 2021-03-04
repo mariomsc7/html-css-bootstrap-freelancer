@@ -2,6 +2,10 @@
 
 /* HEADER-NAVIGATION --------------------------------------*/
 
+.navbar-margin {
+    margin-bottom: 0;
+}
+
 .navbar-padding {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -12,6 +16,11 @@
     border-color: transparent;
     border-radius: 0%;
 }
+
+.text-white {
+    color: white;
+}
+
 .navbar-header .hover-none:hover {
     color: white;
 }
@@ -31,31 +40,158 @@
 
 .text-size-right {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
+/* JUMBOTRON SECTION --------------------------------------*/
 
+.start-bootstrap {
+    background-color: #18b495;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.pic {
+    text-align: center;
+}
 
+.pic img{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
 
+.row h1 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+}
 
+.art {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
 
+/* STAR */
+.star {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.star i {
+    color: white;
+    font-size: 30px;
+}
 
+.star:before,
+.star:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 5px;
+  position: relative;
+  vertical-align: middle;
+  width: 150px;
+  border-radius: 5px;
+}
 
+.star:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+.star:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
 
+/* PORTFOLIO - IMAGES -------------------------------------*/
 
+.portfolio-section {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
 
+.portfolio {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.portfolio h2 {
+    color: #333333;
+    font-weight: 600;
+    font-size: 40px;
+}
 
+/* STAR DARK */
 
+.star-2 {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.star-2 i {
+    color: #2c3e50;
+    font-size: 30px;
+}
 
+.star-2:before,
+.star-2:after {
+  background-color: #2c3e50;
+  content: "";
+  display: inline-block;
+  height: 5px;
+  position: relative;
+  vertical-align: middle;
+  width: 150px;
+  border-radius: 5px;
+}
 
+.star-2:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+.star-2:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
 
+/* IMAGES */
 
+.pics {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
+/* ABOUT SECTION ------------------------------------------*/
 
+.about-section {
+    background-color: #18b495;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.about-text div p{
+    font-size: 20px;
+}
 
 
 
@@ -87,24 +223,6 @@
 
 /* SECTIONS BG and PADDINGS */
 
-.top-header {
-    background-color: darkslategray;
-}
-
-.start-bootstrap {
-    background-color: aquamarine;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.portfolio {
-    padding-top: 30px;
-}
-
-.about {
-    background-color: aquamarine;
-    margin-top: 50px;
-}
 
 .last-section {
     background-color: darkgray;
@@ -116,13 +234,5 @@ footer {
 
 /* UTILITIES */
 
-.pic {
-    text-align: center;
-}
 
-.pics {
-    background-color: black;
-    width: 100%;
-    margin-top: 20px;
-    border-radius: 10px;
-}
+
