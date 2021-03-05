@@ -21,8 +21,12 @@
     color: white;
 }
 
-.navbar-header .hover-none:hover {
+.navbar-brand:hover:hover {
     color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #18b495;
 }
 
 .navbar-default .text-white {
@@ -80,13 +84,15 @@
 .star {
     overflow: hidden;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    width: 300px;
 }
 
 .star i {
     color: white;
     font-size: 30px;
+    vertical-align: middle;
+    width: 20%;
 }
 
 .star:before,
@@ -95,21 +101,11 @@
   content: "";
   display: inline-block;
   height: 5px;
-  position: relative;
   vertical-align: middle;
-  width: 150px;
+  width: 30%;
   border-radius: 5px;
 }
 
-.star:before {
-    right: 0.5em;
-    margin-left: -50%;
-  }
-  
-.star:after {
-    left: 0.5em;
-    margin-right: -50%;
-  }
 
 /* PORTFOLIO - IMAGES -------------------------------------*/
 
@@ -135,36 +131,28 @@
 .star-2 {
     overflow: hidden;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    width: 300px;
 }
 
 .star-2 i {
     color: #2c3e50;
     font-size: 30px;
+    vertical-align: middle;
+    width: 20%;
 }
 
 .star-2:before,
 .star-2:after {
-  background-color: #2c3e50;
-  content: "";
-  display: inline-block;
-  height: 5px;
-  position: relative;
-  vertical-align: middle;
-  width: 150px;
-  border-radius: 5px;
+    background-color: #2c3e50;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    vertical-align: middle;
+    width: 30%;
+    border-radius: 5px;
 }
 
-.star-2:before {
-    right: 0.5em;
-    margin-left: -50%;
-  }
-  
-.star-2:after {
-    left: 0.5em;
-    margin-right: -50%;
-  }
 
 /* IMAGES */
 
@@ -191,13 +179,34 @@
 
 .about-text div p{
     font-size: 20px;
+    padding: 20px 0;
 }
 
+.btn-download {
+    text-align: center;
+    padding: 50px 0;
+}
 
+.btn-custom {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
 
+.btn-custom i {
+    padding-right: 10px;
+}
 
-
-
+.btn-default:hover {
+    color: black;
+    background-color: white;
+    border-color: transparent;
+}
 
 
 
