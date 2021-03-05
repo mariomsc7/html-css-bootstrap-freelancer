@@ -208,40 +208,83 @@
     border-color: transparent;
 }
 
+/* CONTACT SECTION FORM ------------------------------------*/
 
+.contact {
+    padding-bottom: 50px;
+}
 
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="number"],
+textarea {
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+}
 
+.registration-form textarea.form-control {
+    height:100px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+}
 
-
-
-
-
-
-
-
-
-.box {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.btn-custom-send {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #18b495;
+    border: 0;
     padding: 10px;
-    background: white;
+    border-color: transparent;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.btn-custom-send:hover {
+    background-color: #0b5c4c;
+    color: white;
+}
+
+/* SITE INFO SECTION --------------------------------------*/
+
+.site-info {
+    background-color: #3a546d;
+    padding: 50px 0;
     text-align: center;
-    border: 1px solid lime;
-    white-space: nowrap;
 }
 
-/* SECTIONS BG and PADDINGS */
-
-
-.last-section {
-    background-color: darkgray;
+.site-info h3 {
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
-footer {
-    background-color: darkslategrey;
+.site-info p {
+    font-size: 20px;
 }
 
-/* UTILITIES */
+.social-icons{
+    padding: 0;
+}
 
+.site-info .social-icons li {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 10px;
+} 
+
+
+.site-info .freelancer p span {
+    color: #18b495;
+}
 
 
